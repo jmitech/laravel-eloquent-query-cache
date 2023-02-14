@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Traits;
+namespace Jmitech\QueryCache\Traits;
 
-use Rennokki\QueryCache\FlushQueryCacheObserver;
-use Rennokki\QueryCache\Query\Builder;
+use Jmitech\QueryCache\FlushQueryCacheObserver;
+use Jmitech\QueryCache\Query\Builder;
 
 /**
  * @method static bool flushQueryCache(array $tags = [])

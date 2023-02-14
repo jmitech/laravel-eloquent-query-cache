@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Jmitech\QueryCache\Test;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;

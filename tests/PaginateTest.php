@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Jmitech\QueryCache\Test;
 
 use Illuminate\Support\Facades\Cache;
-use Rennokki\QueryCache\Test\Models\Post;
+use Jmitech\QueryCache\Test\Models\Post;
 
 class PaginateTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Jmitech\QueryCache\Test;
 
-use Rennokki\QueryCache\Test\Models\Page;
+use Jmitech\QueryCache\Test\Models\Page;
 
 class FlushCacheOnUpdateTest extends TestCase
 {
