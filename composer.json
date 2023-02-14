@@ -1,5 +1,5 @@
 {
-    "name": "rennokki/laravel-eloquent-query-cache",
+    "name": "jmitech/laravel-eloquent-query-cache",
     "description": "Adding cache on your Laravel Eloquent queries' results is now a breeze.",
     "keywords": [
         "laravel",
@@ -20,17 +20,17 @@
         }
     ],
     "require": {
-        "illuminate/database": "^8.83|^9.35",
-        "illuminate/support": "^8.83|^9.35"
+        "illuminate/database": "^8.83|^9.35|^10.0",
+        "illuminate/support": "^8.83|^9.35|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "Rennokki\\QueryCache\\": "src/"
+            "Jmitech\\QueryCache\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rennokki\\QueryCache\\Test\\": "tests"
+            "Jmitech\\QueryCache\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -50,5 +50,5 @@
         "sort-packages": true
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
